@@ -169,8 +169,8 @@
 
 /* 12 */
 
-function truthyToFalsy(arr){
-    return arr.map(elem => !elem)
-}
+// function truthyToFalsy(arr){
+//     return arr.map(elem => !elem)
+// }
 
-console.log(truthyToFalsy([1,2,3,4,0,1,2,0]))
+// console.log(truthyToFalsy([1,2,3,4,0,1,2,0]))
