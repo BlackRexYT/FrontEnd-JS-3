@@ -135,12 +135,23 @@
 /* 10 */
 
 
+//for loop method
+
+// function removeApples(arr){
+//     let noApples = []
+//     for (i=0;i<arr.length;i++){
+//         if (arr[i] !== 'Apples'){
+//             noApples.push(arr[i])
+//         }
+//     }
+//     return noApples
+// }
+
+// array filter
+
 function removeApples(arr){
-    for (i=0;i<arr.length;i++){
-        if (arr[i] === 'Apples'){
-            arr.pop(arr[i])
-        }
-    }
-    return arr
+    let noApples = []
+
+    return arr.filter(elem => elem !== 'Apples')
 }
 console.log(removeApples(['banana','orange','Apples']))
