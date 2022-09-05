@@ -167,4 +167,10 @@
 // console.log(filterOutFalsy([1,2,3,4,0]))
 
 
-/* END */
+/* 12 */
+
+function truthyToFalsy(arr){
+    return arr.map(elem => !elem)
+}
+
+console.log(truthyToFalsy([1,2,3,4,0,1,2,0]))
