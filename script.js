@@ -125,8 +125,13 @@
 
 //array map method (important)
 
-function convertToZero(arr){
-    return arr.map(elem => elem = 0)
-}
+// function convertToZero(arr){
+//     return arr.map(elem => 0)
+// }
 
-console.log(convertToZero([1,3,4,5,7]))
+// console.log(convertToZero([1,3,4,5,7]))
+
+
+/* 10 */
+
+
