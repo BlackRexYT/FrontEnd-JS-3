@@ -149,9 +149,19 @@
 
 // array filter
 
-function removeApples(arr){
-    let noApples = []
+// function removeApples(arr){
+//     return arr.filter(elem => elem !== 'Apples')
+// }
 
-    return arr.filter(elem => elem !== 'Apples')
+
+// console.log(removeApples(['banana','orange','Apples']))
+
+
+/* 11 */
+
+
+function filterOutFalsy(arr){
+    return arr.filter(elem => !elem === false)
 }
-console.log(removeApples(['banana','orange','Apples']))
+
+console.log(filterOutFalsy([1,2,3,4,0]))
