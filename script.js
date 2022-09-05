@@ -135,3 +135,12 @@
 /* 10 */
 
 
+function removeApples(arr){
+    for (i=0;i<arr.length;i++){
+        if (arr[i] === 'Apples'){
+            arr.pop(arr[i])
+        }
+    }
+    return arr
+}
+console.log(removeApples(['banana','orange','Apples']))
