@@ -96,9 +96,37 @@
 //     return reversedString
 // }
 
+//ez way
+
+// function reverseString(str){
+//     return str.split('').reverse().join('')
+// }
+
 // console.log(reverseString('fahad'))
 
 
 /* 9 */
 
 
+// function convertToZero(arr){
+//     for(let i=0;i<arr.length;i++){
+//         arr[i] = 0
+//     }
+
+//     let arrSecond = arr
+//     return arrSecond
+// }
+
+//array fill method (ez)
+
+// function convertToZero(arr){
+//     return new Array(arr.length).fill(0)
+// }
+
+//array map method (important)
+
+function convertToZero(arr){
+    return arr.map(elem => elem = 0)
+}
+
+console.log(convertToZero([1,3,4,5,7]))
