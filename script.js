@@ -73,13 +73,24 @@
 /* 7 */
 
 
-function getMax(arr){
-    let temp = arr[0]
-    for (i=0;i<arr.length;i++){
-        if (temp < arr[i]){
-            temp = arr[i]
-        }
+// function getMax(arr){
+//     let temp = arr[0]
+//     for (i=0;i<arr.length;i++){
+//         if (temp < arr[i]){
+//             temp = arr[i]
+//         }
+//     }
+//     return temp
+// }
+// console.log(getMax([1,200,3,4,-100,300]))
+
+
+/* 8 */
+
+function reverseString(str){
+    for (i=0;i<str.length;i++){
+        
     }
-    return temp
 }
-console.log(getMax([1,200,3,4,-100,300]))
+
+console.log(reverseString('test'))
