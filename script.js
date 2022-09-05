@@ -160,8 +160,11 @@
 /* 11 */
 
 
-function filterOutFalsy(arr){
-    return arr.filter(elem => !elem === false)
-}
+// function filterOutFalsy(arr){
+//     return arr.filter(elem => !elem === false)
+// }
 
-console.log(filterOutFalsy([1,2,3,4,0]))
+// console.log(filterOutFalsy([1,2,3,4,0]))
+
+
+/* END */
